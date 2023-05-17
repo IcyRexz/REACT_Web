@@ -1,17 +1,15 @@
 import {
 	FiGithub,
-	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
-	FiYoutube,
+	FiMonitor,
 } from 'react-icons/fi';
-import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://www.zacharylow.com',
 	},
 	{
 		id: 2,
@@ -20,19 +18,14 @@ const socialLinks = [
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/zachary-low-yang-kai/',
 	},
 	{
 		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
-	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
-	},
+		icon: <FiMonitor />,
+        url: 'https://github.com/realstoman',
+	}
 ];
 
 const AppFooter = () => {
@@ -60,7 +53,6 @@ const AppFooter = () => {
 					</ul>
 				</div>
 
-				<AppFooterCopyright />
 			</div>
 		</div>
 	);
